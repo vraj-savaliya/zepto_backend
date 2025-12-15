@@ -1,5 +1,5 @@
 const express = require('express')
-const multerUpload = require('../middleware/multerUpload')
+const multerUpload = require('../middleware/MulterUpload')
 const { getapiforprintcategory } = require('../controller/Category')
 const { Adduserdetails, Updateuserdetails, Deleteuserdetails, FetchuserCategory, SendOtp, ResendSendOtp, VerifyedOtp, GetUserDetails, UserUpdate, Fetchuserdetails } = require('../controller/User')
 const { usersidefetchapibanner } = require('../controller/Banners')
