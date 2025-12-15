@@ -7,7 +7,7 @@ const app = express()
 const mongoose = require('mongoose')
 
 const options = {
-    origin: ['http://localhost:3000', 'http://localhost:3001']
+    origin: ['http://localhost:3000', 'http://localhost:3001','https://zepto-frotend.vercel.app']
 }
 
 app.use(cors(options))
