@@ -1,6 +1,6 @@
 const express = require('express')
 const { AddCategory, Updatecategory, DeleteCategory, FetchCategory } = require('../controller/Category')
-const multerUpload = require('../middleware/multerUpload')
+const multerUpload = require('../middleware/MulterUpload')
 const { AddProductdetails, FetchProductdetails, DeleteProductdetails, UpdateProductdetails } = require('../controller/Product')
 const { AddBanners, UpdateBanner, DeleteBanner, FetchBanners } = require('../controller/Banners')
 const { Addoffer, Updateoffer, Deleteoffer, Fetchoffer } = require('../controller/Offer')
