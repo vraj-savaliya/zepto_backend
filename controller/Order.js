@@ -2,7 +2,7 @@ const { StatusCodes } = require("http-status-codes")
 const ErrorHandler = require("../middleware/ErrorHandler")
 const fs = require('fs')
 const path = require('path')
-const userSchema = require('../model/userSchema')
+const userSchema = require('../model/Userschema')
 const OrderSchema = require("../model/OrderSchema")
 
 exports.AddOrderdetails = async (req, res, next) => {
