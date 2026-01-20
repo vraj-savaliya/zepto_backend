@@ -30,10 +30,10 @@ router.put('/update/name/email/profile', UserUpdate)
 
 // ------------------------------------------------------------------------------------------------------------------
 
-// get api for user 
+// get api for user
 router.get('/fetchcategory/details/page', getapiforprintcategory) // complete
 router.get('/fetchbanner/details/page', usersidefetchapibanner) // complete
-router.get('/fetchfoodcarousel/details/page', fetchusersidefoodcarousel)
+router.get('/fetchfoodcarousel/details/page', fetchusersidefoodcarousel)    
 router.get('/fetchoffer/details/page', usersideoffer) //complete
 router.get('/fetchproduct/details/page', fetchusersideproduct)
 router.get('/fetchproduct/details/page/coffee', fetchapiforcoffeecarousel) //complete
