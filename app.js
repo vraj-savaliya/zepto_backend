@@ -18,6 +18,7 @@ app.use(express.static(path.join(__dirname, 'assets')))
 app.get('/', (req,res) =>  {
     return res.send("Zepto Server is running")
 })
+//
 
 const category = require('./routes/Categoryroutes')
 app.use(category)
